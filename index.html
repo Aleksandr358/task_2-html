@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +12,14 @@
          background-attachment: fixed;
          background-size: 50% 50%;
         }
-       </!--style-->
-       <style type="text/css">
+       <style-->
+       <style>
         .block1 { 
          width: 100%; 
          background: rgb(84, 138, 111); 
          padding: 10px; 
          border: solid 1px green; 
-         float: center; 
+         float: left; 
          position: relative; 
          top: 0; 
          left: 0; 
@@ -29,12 +29,17 @@
          background: rgb(84, 138, 111); 
          padding: 10px; 
          border: solid 1px green; 
-         float: center; 
+         float: left; 
          position: relative; 
          top: 40px; 
          left: 0; 
         }
-       </style> 
+       </style>
+        <style>
+            .fig {
+             text-align: center; /* Выравнивание по центру */ 
+            }
+           </style>
 </head>
 <body>
     <header>
@@ -44,9 +49,9 @@
             </a>
         <p style="text-align: center; top: 0%;">
             <!--Есть возможность применения стилей, но я при написании кода ниже применил спец. символы...-->
-            <button><a href="#">Главная</a></button>&nbsp;&nbsp;&nbsp;
-            <button><a href="pages/about.html">О нас</a></button>&nbsp;&nbsp;&nbsp;
-            <button><a href="pages/contacts.html">Контакты</a></button>
+            <a href="#">Главная</a>&nbsp;&nbsp;&nbsp;
+            <a href="pages/about.html">О нас</a>&nbsp;&nbsp;&nbsp;
+            <a href="pages/contacts.html">Контакты</a>
         </p>
         </div>
         <!--Потренировался, но работает не все корректно)-->
@@ -59,6 +64,7 @@
         <br>
     </header>
     <main>
+        <p class="fig"><img src="./images/nAQmhXl93d2Z.jpg" width="300" height="200" alt="Картинка"></p>
     <h1 style="text-align: center;">Зачем изучать HTML?</h1>
     <p>
         Сегодня, когда информационные технологии развиваются невероятно стремительно, почти у каждой фирмы и организации есть свой сайт. Нередко потребность в создании собственной веб-страницы в Интернете возникает и у частных лиц.<br>
@@ -95,9 +101,6 @@
         <p>
             <b>HTML - основа любой веб-страницы.</b> Если вы желаете сделать свой сайт красочным, оригинальным и интересным для потенциального посетителя, то вам придётся вносить в первоначальный шаблон определённые изменения, а без необходимых знаний это не удастся. Для любого, кто хотя бы однажды сталкивался с необходимостью создания собственного ресурса, знание данной разметки не будет лишним и точно обойдётся дешевле, чем услуги программиста.
         </p>
-        <p>
-            Судя по тому, что вы читаете этот текст, вы дочитали эту статью до конца. <!--Если она вам понравилась, поделитесь, пожалуйста, с помощью кнопок ниже. Спасибо за вашу поддержку!-->
-        </p>
     </div>
     </main>
     <footer>
@@ -105,7 +108,5 @@
         <span>&copy;&nbsp;Skillfactory</span>
         </div>
     </footer>
-
-
 </body>
 </html>
